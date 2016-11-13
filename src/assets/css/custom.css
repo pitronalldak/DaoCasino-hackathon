@@ -1,0 +1,166 @@
+.panel-market {
+    background: url(/src/assets/images/market.png);
+    display: block;
+    height: 239px;
+    text-decoration: none;
+}
+
+.panel-market h5 {
+    font-family: monospace;
+    color: #ADAC74 !important;
+    margin-bottom: 5px !important;
+}
+.panel-market h4 {
+    font-family: monospace;
+    color: #ADAC74 !important;
+    margin-top: 0 !important;
+}
+.panel-market-layout {
+    background: url(/src/assets/images/market-right.png);
+    height: 239px;
+    text-align: center;
+}
+
+.panel-item-body {
+    min-height: 173px;
+    width: 100%;
+    height: 173px;
+    background: #2A2A2A;
+    border: 1px solid #2A2A2A;
+    color: #ADAC74;
+    margin-right: 5px;
+    -webkit-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.75);
+    cursor: pointer;
+    -webkit-transition: background-color 150ms ease-out 0.1s;
+    -moz-transition: background-color 150ms ease-out 0.1s;
+    -o-transition: background-color 150ms ease-out 0.1s;
+    transition: background-color 150ms ease-out 0.1s;
+}
+
+.panel-item-footer {
+    height: 25px;
+    width: 100%;
+    text-align: center;
+    line-height: 23px;
+    background: linear-gradient(to bottom, rgba(66,66,66,1) 0%, rgba(31,31,31,1) 100%);
+}
+
+.dao-casino {
+    background: url(/src/assets/images/item-img.png);
+    width: 100%;
+    height: 86%;
+}
+.panel-statistics {
+    display: block;
+    background: #000;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    -webkit-box-shadow: 0px 0px 3px 1px rgba(0,0,0,0.60);
+    -moz-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.60);
+    box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.60);
+    color: #ADAC74;
+    float: left;
+    max-height: 162px;
+    overflow: hidden;
+    margin-bottom: 4px
+}
+.panel-statistics h1 {
+    padding: 0px;
+    display: block;
+    width: 300px;
+    font-size: 13px;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    height: 23px;
+    line-height: 22px;
+    margin: 0 1px;
+    padding-left: 10px;
+    text-shadow: 1px 1px 5px rgba(000, 000, 000, 1);
+    letter-spacing: 0px;
+    text-align: left;
+    color: #ADAC74 !important;
+    font-weight: normal;
+}
+
+
+.newBG {
+    background: -webkit-linear-gradient(top, rgba(66,66,66,1) 0%, rgba(31,31,31,1) 100%);
+}
+
+.recent {
+    border-top: 1px solid #373737;
+    background: #2B2B2B;
+    height: 22px;
+    line-height: 22px;
+    text-align: left;
+    padding-left: 5px
+}
+.recent span {
+    margin-left: 5px;
+    display: inline-block;
+    line-height: 22px;
+    max-width: 100px;
+    overflow: hidden;
+    width: 90px;
+    font-size: 11px;
+    color: #8E8E8E;
+    text-shadow: 1px 1px 5px rgba(000, 000, 000, 1);
+    cursor: pointer;
+}
+
+.recent span:nth-child(1) {
+    color: #D9D9D9;
+    width: 95px;
+    min-width: 95px;
+    max-width: 95px;
+    overflow: hidden;
+}
+
+.recent span:nth-child(2) {
+    width: 85px;
+    min-width: 85px;
+    max-width: 85px;
+    overflow: hidden;
+}
+
+.recent span:nth-child(3) {
+    width: 90px;
+    color: #B0B0B0;
+}
+
+.recent-big {
+    line-height: 45px;
+    height: 44px;
+    padding-left: 10px;
+    border-top: 1px solid #373737;
+    background: #2B2B2B;
+    text-align: left;
+}
+
+.recent-big span {
+    font-size: 13px;
+    display: inline-block;
+    text-transform: capitalize;
+    color: #D9D9D9;
+    text-shadow: 1px 1px 5px rgba(000, 000, 000, 1);
+}
+
+.recent-big span:nth-child(2) {
+    min-width: 150px;
+    margin-left: 10px;
+}
+
+.recent-big span img {
+    display: inline-block;
+    position: relative;
+}
+
+.img-top-bar {
+    width: 50px;
+    height: 50px;
+}
+.text-yellow {
+    color: #ADAC74 !important;
+}
